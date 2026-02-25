@@ -1,0 +1,93 @@
+/*
+Change the font color and size of at least one text element (heading or paragraph element)
+Change at least one text element’s font to an embedded Google font
+Modify the border, padding, and margin of at least one element
+Resize an image
+Change the background color of an element
+Add a background image to a section of the page (div)
+*/
+
+body {
+  background-image: url("table_bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  /*background color is technically changed*/
+  background-color: #e5cea4;
+  background-image:url(paper.jpg);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  width: 569px;
+  margin-left:26px;
+  padding: 20px;
+  /*box-sizing: border-box;  🔥 important */
+}
+#right_hand {
+ width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 1900px;
+  left: 537px;
+}
+#left_hand {
+  /*
+  width: 20rem;
+  height: 20rem;
+  */
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 290px;
+  left: -210px;
+}
+/*
+#scroll_bottom {
+  width: 60rem;
+  height: 5rem;
+  position: relative;
+  position: absolute;
+  top: 147rem;
+  left: -14rem;
+}
+*/
+img {
+  width: 20rem;
+  height: 20rem;
+  display: block;
+  margin: auto;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Special Elite", system-ui;
+  text-align: center;
+  padding: 0rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Special Elite", system-ui;
+}
+
+p {
+  font-family: "Special Elite", system-ui;
+  color: gray;
+  text-align: center;
+}
+
+#polaroid_man {
+  position: absolute;
+  right: 5rem;
+  z-index: -1;
+  transform: rotate(33deg);
+}
+
+#polaroid_band {
+  position: absolute;
+  width: 275px;
+  right: 5rem;
+  top: 15rem;
+  z-index: -1;
+  transform: rotate(-16deg);
+}
