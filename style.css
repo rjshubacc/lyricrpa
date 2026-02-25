@@ -17,6 +17,7 @@ section {
   /*background color is technically changed*/
   background-color: #e5cea4;
   background-image:url(paper.jpg);
+  left: 26px;
   background-repeat: repeat-y;
   background-size: 100% auto;
   width: 569px;
@@ -28,7 +29,7 @@ section {
  width: 350px;
   height: 350px;
   position: absolute;
-  bottom: 0px;
+  bottom: -1470px;
   left: 537px;
 }
 #left_hand {
@@ -90,6 +91,15 @@ p {
   top: 15rem;
   z-index: -1;
   transform: rotate(-16deg);
+}
+
+#stain {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  right: 25rem;
+  bottom: 75rem;
+  z-index: -1;
 }
 
 a:visited {
