@@ -97,11 +97,20 @@ p {
   position: absolute;
   height: 600px;
   width: 600px;
-  right: 25rem;
-  bottom: 75rem;
+  right: 45rem;
+  bottom: 1rem;
   z-index: -1;
 }
 
+#folder {
+  position: absolute;
+  width: 1000px;
+height: 750px;
+  right: 5rem;
+  top: 45rem;
+  z-index: -1;
+  transform: rotate(-79deg);
+}
 a:visited {
   color:black;
 }
