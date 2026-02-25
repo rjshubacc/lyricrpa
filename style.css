@@ -28,7 +28,7 @@ section {
  width: 350px;
   height: 350px;
   position: absolute;
-  bottom: -95rem;
+  bottom: 0px;
   left: 537px;
 }
 #left_hand {
@@ -90,4 +90,16 @@ p {
   top: 15rem;
   z-index: -1;
   transform: rotate(-16deg);
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color:grey;
+}
+
+a:active {
+  color:black;
 }
