@@ -16,44 +16,29 @@ body {
 section {
   /*background color is technically changed*/
   background-color: #e5cea4;
-  background-image:url(paper.jpg);
+  background-image: url(paper.jpg);
   left: 26px;
   background-repeat: repeat-y;
   background-size: 100% auto;
   width: 569px;
-  margin-left:26px;
+  margin-left: 26px;
   padding: 20px;
-  /*box-sizing: border-box;  🔥 important */
 }
 #right_hand {
- width: 350px;
+  width: 350px;
   height: 350px;
   position: absolute;
   bottom: -1470px;
   left: 537px;
 }
 #left_hand {
-  /*
-  width: 20rem;
-  height: 20rem;
-  */
   width: 350px;
   height: 350px;
   position: absolute;
   top: 290px;
   left: -210px;
 }
-/*
-#scroll_bottom {
-  width: 60rem;
-  height: 5rem;
-  position: relative;
-  position: absolute;
-  top: 147rem;
-  left: -14rem;
-}
-*/
-img {
+/ img {
   width: 20rem;
   height: 20rem;
   display: block;
@@ -105,20 +90,20 @@ p {
 #folder {
   position: absolute;
   width: 1000px;
-height: 750px;
+  height: 750px;
   right: 5rem;
   top: 45rem;
   z-index: -1;
   transform: rotate(-79deg);
 }
 a:visited {
-  color:black;
+  color: black;
 }
 
 a:hover {
-  color:grey;
+  color: grey;
 }
 
 a:active {
-  color:black;
+  color: black;
 }
